@@ -1,0 +1,13 @@
+<VRTDataset rasterXSize="1446" rasterYSize="1146">
+  <SRS>PROJCS["WGS 84 / UTM zone 32N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",9],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32632"]]</SRS>
+  <GeoTransform>552244, 1, 0, 4.47114e+06, 0, -1</GeoTransform>
+  <VRTRasterBand NoDataValue="-9999" band="1" dataType="Float64">
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">dem.tif.0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties BlockXSize="1446" DataType="Byte" RasterXSize="1446" BlockYSize="1146" RasterYSize="1146"/>
+      <SrcRect xSize="1446" ySize="1146" yOff="0" xOff="0"/>
+      <DstRect xSize="1446" ySize="1146" yOff="0" xOff="0"/>
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
